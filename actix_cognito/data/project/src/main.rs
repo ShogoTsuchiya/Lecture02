@@ -38,8 +38,8 @@ pub fn generate_secret_hash(name: &str) -> String {
 
 pub async fn cognito_client() -> Result<Client> {
     let creds = Credentials::from_keys(
-        "AKIARHXN4ZT3WT77I6QI",
-        "CNlhF7ASHy/kx9EsTjnQCZAnOXq2ZGWPcF+0C2vl",
+        "AWS-ACCESS-KEY",
+        "AWS-SECRET-ACCESS-KEY",
         None,
     );
     let config = Config::builder()
