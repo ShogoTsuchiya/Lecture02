@@ -1,0 +1,22 @@
+[package]
+name = "samplepage"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shogo Tsuchiya<shogo.tsuchiya@integral-g-k.work>"]
+description = "Sample Actix page"
+
+[dependencies]
+actix-web="4"
+serde={version = "1.0", features = ["derive"]}
+env_logger="0.10"
+log="0.4"
+dotenv="0.15"
+aws-types = "0.54.1"
+aws-sdk-cognitoidentityprovider="0.24.0"
+aws-config = "0.54.1"
+aws-credential-types = { version = "0.54.1", features = [
+    "hardcoded-credentials",
+] }
+hmac = "0"
+sha2 = "0"
+base64 = "0"
