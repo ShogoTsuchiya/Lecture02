@@ -147,7 +147,7 @@ ssh -i 鍵ファイル名 ec2-user@EC2インスタンスのパブリックIPア�
 git clone https://github.com/ShogoTsuchiya/Lecture02.git
 
 # CD を変更
-cd Lecture02/
+cd Lecture02/actix
 
 # 専用イメージのビルド
 sudo docker build --no-cache -t actix .
